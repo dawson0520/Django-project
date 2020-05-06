@@ -1,4 +1,4 @@
-django==2.1.0
+django
 pillow
 mysqlclient
 djangorestframework-jwt
