@@ -19,3 +19,5 @@ class GoodsAdmin(object):
 
     inlines = [GoodsImagesInline]
     
+ class HotSearchAdmin(object):
+    list_display = ["keywords", "index", "add_time"]
