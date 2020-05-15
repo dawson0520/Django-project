@@ -12,4 +12,5 @@ class GoodsCategoryAdmin(object):
     search_fields = ['name', ]
     
    
-name = models.charfield(max_length=20)
+class BannerGoodsAdmin(object):
+    list_display = ["goods", "image", "index"]
